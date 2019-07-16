@@ -17,6 +17,6 @@ Sterategy  : 1. Plotting heatmap for the co-relation values of top 10 columns.<b
 ### I. Applying cos function on top 10 features (Based on co-relation with 'House price') gives much better result.
 
 ## 3. Applying LassoCV,Random forest, XGBoost and stacking on the processed data.
-## 4. Removing features based on `coef_` value of Lassocv, improves result in other models.
+### 4. Removing features based on `coef_` value of Lassocv, improves result in other models.
 
-# XGBoost gives lowest MSE of 0.02112.
+## XGBoost gives lowest MSE of 0.02112.
